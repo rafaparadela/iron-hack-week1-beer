@@ -8,22 +8,75 @@
 
 #import "AppDelegate.h"
 #import "Beer.h"
+#import "Person.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     
-    Beer *mahou = [[Beer alloc] init];
+//    Beer *mahou = [[Beer alloc] init];
 //    Beer *cruzcampo = [[Beer alloc] init];
 //    Beer *estrellaDamm = [[Beer alloc] init];
+//    Beer *coronita = [[Beer alloc] init];
+//    
+//    [mahou setName:@"Mahou"];
+//    [mahou setColor:@"Rubia"];
+//    [mahou setGrade:4];
+//    [mahou printBeerInfo];
+//    
+//    mahou.name = @"Pepita";
+//    
     
-    [mahou printBeerInfo];
-    [mahou printBeerInfoWithHeader:@"Esta es la cabecera" andFooter:@"Este es el pie" andNumberOfEmojis:3];
+//    [cruzcampo setName:@"Cruzcampo"];
+//    [cruzcampo setColor:@"Rubia"];
+//    [cruzcampo setGrade:5];
+//    [cruzcampo printBeerInfo];
+//    
+//    [estrellaDamm setName:@"Estrella Damm"];
+//    [estrellaDamm setColor:@"Negra"];
+//    [estrellaDamm setGrade:3];
+//    [estrellaDamm printBeerInfo];
+//    
+//    [coronita setName:@"Coronita"];
+//    [coronita setColor:@"Rubia"];
+//    [coronita setGrade:4];
+//    [coronita printBeerInfo];
+    
+    
+//    Person *bart = [[Person alloc] init];
+//    Person *homer = [[Person alloc] initWithName:@"Homer"];
+//    Person *marge = [[Person alloc] initWithName:@"Marge" andAddress:@"Springfield"];
+//    Person *lisa = [[Person alloc] initWithName:@"Lisa" andAddress:@"Springfield" age:12];
+//    
+//    NSMutableArray *personList = [NSMutableArray arrayWithObjects:bart, homer, marge, lisa, nil];
+//    NSMutableArray *personList2 = @[bart, homer];
+//    
+//    Person *maggy = [Person personWithName:@"Maggy"];
+//    
+//    for (Person * p in personList) {
+//        [p printPerson];
+//    }
+//    
+//    NSMutableArray *partylist = [NSMutableArray arrayWithObjects:bart, homer, nil];
+//    
+//    for (int i=0; i<100; i++) {
+//        NSString *thename = [NSString stringWithFormat:@"Persona %d",i+1];
+//        Person *newperson = [Person personWithName:thename];
+//        [partylist addObject:newperson];
+////        [newperson printPerson];
+//    }
+    
+    
+    
+    
+    
+    
+    
 
     
     return YES;
