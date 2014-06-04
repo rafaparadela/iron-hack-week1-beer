@@ -25,6 +25,9 @@
 		1EE711AA193CD00800B24ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EE711A8193CD00800B24ED7 /* InfoPlist.strings */; };
 		1EE711AC193CD00800B24ED7 /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE711AB193CD00800B24ED7 /* BeersTests.m */; };
 		1EE711B7193CD21A00B24ED7 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE711B6193CD21A00B24ED7 /* Beer.m */; };
+		1EF9DAF8193E26EC005ED7D1 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9DAF7193E26EC005ED7D1 /* AlphaViewController.m */; };
+		1EF9DAFA193E2976005ED7D1 /* fari1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9DAF9193E2976005ED7D1 /* fari1.png */; };
+		1EF9DAFC193E297C005ED7D1 /* fari2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9DAFB193E297C005ED7D1 /* fari2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,10 @@
 		1EE711AB193CD00800B24ED7 /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
 		1EE711B5193CD21A00B24ED7 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
 		1EE711B6193CD21A00B24ED7 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		1EF9DAF6193E26EC005ED7D1 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		1EF9DAF7193E26EC005ED7D1 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		1EF9DAF9193E2976005ED7D1 /* fari1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fari1.png; sourceTree = "<group>"; };
+		1EF9DAFB193E297C005ED7D1 /* fari2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fari2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E69226B193F03750043FE4D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9DAF9193E2976005ED7D1 /* fari1.png */,
+				1EF9DAFB193E297C005ED7D1 /* fari2.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		1ED723F8193DC4730025D1B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +135,8 @@
 				1ED72401193E0B890025D1B9 /* EuroCalculatorViewController.m */,
 				1ED72403193E0CAF0025D1B9 /* EuroConverterViewController.h */,
 				1ED72404193E0CAF0025D1B9 /* EuroConverterViewController.m */,
+				1EF9DAF6193E26EC005ED7D1 /* AlphaViewController.h */,
+				1EF9DAF7193E26EC005ED7D1 /* AlphaViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -158,6 +176,7 @@
 			children = (
 				1EE71195193CD00800B24ED7 /* AppDelegate.h */,
 				1EE71196193CD00800B24ED7 /* AppDelegate.m */,
+				1E69226B193F03750043FE4D /* Assets */,
 				1ED723F8193DC4730025D1B9 /* Model */,
 				1ED723FE193E08B00025D1B9 /* View */,
 				1ED723FF193E08BF0025D1B9 /* Controller */,
@@ -272,8 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE71191193CD00800B24ED7 /* InfoPlist.strings in Resources */,
+				1EF9DAFC193E297C005ED7D1 /* fari2.png in Resources */,
 				1EE71199193CD00800B24ED7 /* Images.xcassets in Resources */,
 				1ED723FD193E047D0025D1B9 /* Storyboard.storyboard in Resources */,
+				1EF9DAFA193E2976005ED7D1 /* fari1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +318,7 @@
 				1ED72405193E0CAF0025D1B9 /* EuroConverterViewController.m in Sources */,
 				1EE71197193CD00800B24ED7 /* AppDelegate.m in Sources */,
 				1ED723F7193DC3780025D1B9 /* Person.m in Sources */,
+				1EF9DAF8193E26EC005ED7D1 /* AlphaViewController.m in Sources */,
 				1ED723FB193DE8FF0025D1B9 /* EuroConverter.m in Sources */,
 				1EE71193193CD00800B24ED7 /* main.m in Sources */,
 			);

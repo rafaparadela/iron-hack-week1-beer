@@ -7,7 +7,31 @@
 //
 
 #import "EuroConverterViewController.h"
+#import "EuroConverter.h"
 
-@interface EuroConverterViewController ()
+@interface EuroConverterViewController()
+
+@property (weak, nonatomic) IBOutlet UITextField *txtAmount;
+
+
+@end
+
+@implementation EuroConverterViewController
+
+- (IBAction)convertMoney:(id)sender {
+    
+    NSString *cadena = self.txtAmount.text;
+//    NSString *cadena = [[self txtAmount] text];
+//    NSString *cadena = [self.txtAmount].text;
+//    NSString *cadena = [self.txtAmount] text;
+    
+    float p = [cadena floatValue];
+    float e = [EuroConverter convertFromPesetaToEuro:p];
+    
+    
+    NSLog(@"%f", e);
+}
+
+
 
 @end
