@@ -7,7 +7,7 @@
         <!--Euro Converter View Controller-->
         <scene sceneID="dxi-MD-l1i">
             <objects>
-                <viewController id="vi9-6d-rpJ" customClass="EuroConverterViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="myStoryBoardEuroConverter" id="vi9-6d-rpJ" customClass="EuroConverterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uke-GR-Ov0"/>
                         <viewControllerLayoutGuide type="bottom" id="JoB-Hb-6ZB"/>
@@ -46,7 +46,7 @@
         <!--Euro Calculator View Controller-->
         <scene sceneID="erR-Sw-E2U">
             <objects>
-                <viewController id="7ee-sz-J0T" customClass="EuroCalculatorViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="myStoryBoardEuroCalculator" id="7ee-sz-J0T" customClass="EuroCalculatorViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rBr-uo-8TV"/>
                         <viewControllerLayoutGuide type="bottom" id="klU-KM-FK0"/>
@@ -210,7 +210,7 @@
         <!--Alpha View Controller-->
         <scene sceneID="GzF-nx-By3">
             <objects>
-                <viewController id="r0S-md-Zc9" customClass="AlphaViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="myStoryBoardAlpha" id="r0S-md-Zc9" customClass="AlphaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1X2-3U-1iQ"/>
                         <viewControllerLayoutGuide type="bottom" id="lhX-hb-bpM"/>
