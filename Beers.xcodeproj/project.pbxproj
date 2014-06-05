@@ -61,6 +61,7 @@
 		1ED72401193E0B890025D1B9 /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		1ED72403193E0CAF0025D1B9 /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		1ED72404193E0CAF0025D1B9 /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		1EDC56C319405C12000FF647 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1EE71183193CD00800B24ED7 /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE71186193CD00800B24ED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EE71188193CD00800B24ED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -158,6 +159,7 @@
 		1EE7117A193CD00800B24ED7 = {
 			isa = PBXGroup;
 			children = (
+				1EDC56C319405C12000FF647 /* README.md */,
 				1EE7118C193CD00800B24ED7 /* Beers */,
 				1EE711A5193CD00800B24ED7 /* BeersTests */,
 				1EE71185193CD00800B24ED7 /* Frameworks */,
