@@ -1,4 +1,4 @@
-# The Beers Example 🐤
+# The Beers Example
 
 ## What is this?
 

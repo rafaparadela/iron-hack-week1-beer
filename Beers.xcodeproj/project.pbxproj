@@ -17,6 +17,7 @@
 		1ED723FD193E047D0025D1B9 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED723FC193E047D0025D1B9 /* Storyboard.storyboard */; };
 		1ED72402193E0B890025D1B9 /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED72401193E0B890025D1B9 /* EuroCalculatorViewController.m */; };
 		1ED72405193E0CAF0025D1B9 /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED72404193E0CAF0025D1B9 /* EuroConverterViewController.m */; };
+		1EDC56C719405FFF000FF647 /* BeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC56C619405FFF000FF647 /* BeerListViewController.m */; };
 		1EE71187193CD00800B24ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE71186193CD00800B24ED7 /* Foundation.framework */; };
 		1EE71189193CD00800B24ED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE71188193CD00800B24ED7 /* CoreGraphics.framework */; };
 		1EE7118B193CD00800B24ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE7118A193CD00800B24ED7 /* UIKit.framework */; };
@@ -62,6 +63,8 @@
 		1ED72403193E0CAF0025D1B9 /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		1ED72404193E0CAF0025D1B9 /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
 		1EDC56C319405C12000FF647 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1EDC56C519405FFF000FF647 /* BeerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerListViewController.h; sourceTree = "<group>"; };
+		1EDC56C619405FFF000FF647 /* BeerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListViewController.m; sourceTree = "<group>"; };
 		1EE71183193CD00800B24ED7 /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE71186193CD00800B24ED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EE71188193CD00800B24ED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -152,6 +155,8 @@
 				1ED72404193E0CAF0025D1B9 /* EuroConverterViewController.m */,
 				1EF9DAF6193E26EC005ED7D1 /* AlphaViewController.h */,
 				1EF9DAF7193E26EC005ED7D1 /* AlphaViewController.m */,
+				1EDC56C519405FFF000FF647 /* BeerListViewController.h */,
+				1EDC56C619405FFF000FF647 /* BeerListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 				1E47D9E0193F3620000E0773 /* BeerList.m in Sources */,
 				1E47D9E3193F7D98000E0773 /* Hotel.m in Sources */,
 				1EE71193193CD00800B24ED7 /* main.m in Sources */,
+				1EDC56C719405FFF000FF647 /* BeerListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
