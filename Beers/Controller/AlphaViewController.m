@@ -31,6 +31,7 @@
 //    [self image].alpha = a;
 //    [[self image] setAlpha: a];
     
+    
 }
 
 - (IBAction)toggleImage:(id)sender {
