@@ -8,13 +8,14 @@
 
 #import "BeerListViewController.h"
 #import "BeerList.h"
-#import "Beer.h"
+#import "PersonList.h"
 
 @interface BeerListViewController ()
 
 @property (weak, nonatomic) IBOutlet UIPickerView *pickBeer;
 @property (weak, nonatomic) IBOutlet UIPickerView *pickPerson;
 @property (nonatomic, strong) BeerList *beerList;
+@property (nonatomic, strong) PersonList *personList;
 
 @end
 
@@ -52,16 +53,38 @@
 //LAZI GETTER
 - (BeerList *)beerList {
     if(!_beerList){
-        _beerList = [[BeerList alloc] init];
         
+        _beerList = [[BeerList alloc] initWithFile:@"beer_list"];
+        
+        
+        
+        /*
+         _beerList = [[BeerList alloc] init];
+
         for (int i = 0; i<100; i++) {
             Beer *cerveza = [[Beer alloc] init];
-            NSString *nam = [NSString stringWithFormat:@"💩 Beer %d",i];
+            NSString *nam = [NSString stringWithFormat:@"🍺 Beer %d",i];
             [cerveza setName:nam];
             [_beerList addBeer: cerveza];
         }
+         */
     }
     return _beerList;
+}
+
+- (PersonList *)personList {
+    if(!_personList){
+        _personList = [[PersonList alloc] init];
+        
+        for (int i = 0; i<100; i++) {
+            Person *p = [[Person alloc] init];
+            NSString *nam = [NSString stringWithFormat:@"👦 Persona %d",i];
+            [p setName:nam];
+            [_personList addPerson: p];
+        }
+        
+    }
+    return _personList;
 }
 
 
@@ -74,19 +97,34 @@
 #pragma mark - Pickerview delegate method
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
-    NSLog(@"Preguntando el numero de Cervezas");
+    NSLog(@"Preguntando el numero de columnas");
     return 1;
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
-    NSLog(@"Preguntando el numero de Cervezas");
-    return [self.beerList count];
+    
+    if(pickerView == self.pickBeer){
+        NSLog(@"Preguntando el numero de Cervezas");
+        return [self.beerList count];
+    }else{
+        NSLog(@"Preguntando el numero de personas");
+        return [self.personList count];
+    }
+    
 }
 
 -(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
-    NSLog(@"Preguntando la cerveza de la fila %ld", (long)row);
-    Beer *beer = [[self.beerList allBeers] objectAtIndex:row];
-    return beer.name;
+    
+    if(pickerView == self.pickBeer){
+        NSLog(@"Preguntando la cerveza de la fila %ld", (long)row);
+        Beer *beer = [[self.beerList allBeers] objectAtIndex:row];
+        return beer.name;
+    }else{
+        NSLog(@"Preguntando la persona de la fila %ld", (long)row);
+        Person *p = [[self.personList allPersons] objectAtIndex:row];
+        return p.name;
+    }
+    
 }
 
 

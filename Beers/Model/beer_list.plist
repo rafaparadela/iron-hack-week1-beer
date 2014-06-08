@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>🍺 Cruzcampo</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>🍺 Mahou</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>🍺 Paulaner</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>🍺 Coronita</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>🍺 Heineken</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>🍺 Calsberg</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>💩 Budweiser</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>yellow</string>
+		<key>country</key>
+		<string>USA</string>
+		<key>grade</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>🍺 Estrella Damm</string>
+	</dict>
+</array>
+</plist>

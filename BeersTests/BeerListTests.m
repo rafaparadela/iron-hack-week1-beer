@@ -142,7 +142,7 @@
         [mahou setValue:nam forKey:@"name"];
         [allBeers addBeer: mahou];
     }
-    
+
     NSArray *newlist = [allBeers allBeers];
     XCTAssertEqual(TEST_COUNT, newlist.count, @"Expected %d but found %lu! 😭", 0, newlist.count );
 
@@ -164,6 +164,20 @@
 }
 
 
+- (void)testCanInitListBeerFromFile{
+    BeerList *allBeers = [[BeerList alloc] initWithFile:@"beer_list"];
+    XCTAssertNotNil(allBeers, TEST_ERROR_MSG);
+
+    
+    XCTAssertTrue(allBeers.count>0,TEST_ERROR_MSG);
+    
+    for (Beer *b in allBeers.allBeers) {
+        XCTAssertTrue( [b isKindOfClass:[Beer class]] ,TEST_ERROR_MSG);
+        XCTAssertNotNil(b.name, TEST_ERROR_MSG);
+    }
+
+    
+}
 
 
 

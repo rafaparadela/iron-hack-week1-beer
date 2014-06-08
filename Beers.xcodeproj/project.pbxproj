@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E39D47019407B5300A7FEA9 /* PersonList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39D46F19407B5300A7FEA9 /* PersonList.m */; };
+		1E39D47219407C8000A7FEA9 /* PersonListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39D47119407C8000A7FEA9 /* PersonListTests.m */; };
+		1E39D4771940898400A7FEA9 /* beer_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4761940898400A7FEA9 /* beer_list.plist */; };
+		1E39D4BE1940C23200A7FEA9 /* 22-skull-n-bones.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4B61940C23200A7FEA9 /* 22-skull-n-bones.png */; };
+		1E39D4BF1940C23200A7FEA9 /* 23-bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4B71940C23200A7FEA9 /* 23-bird.png */; };
+		1E39D4C01940C23200A7FEA9 /* 40-inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4B81940C23200A7FEA9 /* 40-inbox.png */; };
+		1E39D4C11940C23200A7FEA9 /* 71-compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4B91940C23200A7FEA9 /* 71-compass.png */; };
+		1E39D4C21940C23200A7FEA9 /* 78-stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4BA1940C23200A7FEA9 /* 78-stopwatch.png */; };
+		1E39D4C31940C23200A7FEA9 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4BB1940C23200A7FEA9 /* 103-map.png */; };
+		1E39D4C41940C23200A7FEA9 /* 129-golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4BC1940C23200A7FEA9 /* 129-golf.png */; };
+		1E39D4C51940C23200A7FEA9 /* 164-glasses-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39D4BD1940C23200A7FEA9 /* 164-glasses-2.png */; };
+		1E39D4C71940C4AC00A7FEA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E39D4C61940C4AC00A7FEA9 /* MapKit.framework */; };
 		1E3A1B9A193F25BE003908F8 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A1B99193F25BE003908F8 /* PersonTests.m */; };
 		1E47D9DD193F34F6000E0773 /* BeerListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E47D9DC193F34F6000E0773 /* BeerListTests.m */; };
 		1E47D9E0193F3620000E0773 /* BeerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E47D9DF193F3620000E0773 /* BeerList.m */; };
@@ -46,6 +58,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E39D46E19407B5300A7FEA9 /* PersonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonList.h; sourceTree = "<group>"; };
+		1E39D46F19407B5300A7FEA9 /* PersonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonList.m; sourceTree = "<group>"; };
+		1E39D47119407C8000A7FEA9 /* PersonListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListTests.m; sourceTree = "<group>"; };
+		1E39D4761940898400A7FEA9 /* beer_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beer_list.plist; sourceTree = "<group>"; };
+		1E39D4B61940C23200A7FEA9 /* 22-skull-n-bones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-skull-n-bones.png"; sourceTree = "<group>"; };
+		1E39D4B71940C23200A7FEA9 /* 23-bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "23-bird.png"; sourceTree = "<group>"; };
+		1E39D4B81940C23200A7FEA9 /* 40-inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-inbox.png"; sourceTree = "<group>"; };
+		1E39D4B91940C23200A7FEA9 /* 71-compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "71-compass.png"; sourceTree = "<group>"; };
+		1E39D4BA1940C23200A7FEA9 /* 78-stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "78-stopwatch.png"; sourceTree = "<group>"; };
+		1E39D4BB1940C23200A7FEA9 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		1E39D4BC1940C23200A7FEA9 /* 129-golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129-golf.png"; sourceTree = "<group>"; };
+		1E39D4BD1940C23200A7FEA9 /* 164-glasses-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "164-glasses-2.png"; sourceTree = "<group>"; };
+		1E39D4C61940C4AC00A7FEA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1E3A1B99193F25BE003908F8 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 		1E47D9DC193F34F6000E0773 /* BeerListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTests.m; sourceTree = "<group>"; };
 		1E47D9DE193F3620000E0773 /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
@@ -93,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E39D4C71940C4AC00A7FEA9 /* MapKit.framework in Frameworks */,
 				1EE71189193CD00800B24ED7 /* CoreGraphics.framework in Frameworks */,
 				1EE7118B193CD00800B24ED7 /* UIKit.framework in Frameworks */,
 				1EE71187193CD00800B24ED7 /* Foundation.framework in Frameworks */,
@@ -115,6 +141,14 @@
 		1E69226B193F03750043FE4D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1E39D4B61940C23200A7FEA9 /* 22-skull-n-bones.png */,
+				1E39D4B71940C23200A7FEA9 /* 23-bird.png */,
+				1E39D4B81940C23200A7FEA9 /* 40-inbox.png */,
+				1E39D4B91940C23200A7FEA9 /* 71-compass.png */,
+				1E39D4BA1940C23200A7FEA9 /* 78-stopwatch.png */,
+				1E39D4BB1940C23200A7FEA9 /* 103-map.png */,
+				1E39D4BC1940C23200A7FEA9 /* 129-golf.png */,
+				1E39D4BD1940C23200A7FEA9 /* 164-glasses-2.png */,
 				1EF9DAF9193E2976005ED7D1 /* fari1.png */,
 				1EF9DAFB193E297C005ED7D1 /* fari2.png */,
 			);
@@ -134,6 +168,9 @@
 				1E47D9DF193F3620000E0773 /* BeerList.m */,
 				1E47D9E1193F7D98000E0773 /* Hotel.h */,
 				1E47D9E2193F7D98000E0773 /* Hotel.m */,
+				1E39D46E19407B5300A7FEA9 /* PersonList.h */,
+				1E39D46F19407B5300A7FEA9 /* PersonList.m */,
+				1E39D4761940898400A7FEA9 /* beer_list.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +221,7 @@
 		1EE71185193CD00800B24ED7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E39D4C61940C4AC00A7FEA9 /* MapKit.framework */,
 				1EE71186193CD00800B24ED7 /* Foundation.framework */,
 				1EE71188193CD00800B24ED7 /* CoreGraphics.framework */,
 				1EE7118A193CD00800B24ED7 /* UIKit.framework */,
@@ -225,6 +263,7 @@
 				1E3A1B99193F25BE003908F8 /* PersonTests.m */,
 				1E47D9DC193F34F6000E0773 /* BeerListTests.m */,
 				1E47D9E4193F81B8000E0773 /* HotelTests.m */,
+				1E39D47119407C8000A7FEA9 /* PersonListTests.m */,
 			);
 			path = BeersTests;
 			sourceTree = "<group>";
@@ -313,10 +352,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E39D4C01940C23200A7FEA9 /* 40-inbox.png in Resources */,
+				1E39D4C31940C23200A7FEA9 /* 103-map.png in Resources */,
 				1EE71191193CD00800B24ED7 /* InfoPlist.strings in Resources */,
+				1E39D4BF1940C23200A7FEA9 /* 23-bird.png in Resources */,
 				1EF9DAFC193E297C005ED7D1 /* fari2.png in Resources */,
+				1E39D4C11940C23200A7FEA9 /* 71-compass.png in Resources */,
 				1EE71199193CD00800B24ED7 /* Images.xcassets in Resources */,
+				1E39D4BE1940C23200A7FEA9 /* 22-skull-n-bones.png in Resources */,
 				1ED723FD193E047D0025D1B9 /* Storyboard.storyboard in Resources */,
+				1E39D4C51940C23200A7FEA9 /* 164-glasses-2.png in Resources */,
+				1E39D4C21940C23200A7FEA9 /* 78-stopwatch.png in Resources */,
+				1E39D4C41940C23200A7FEA9 /* 129-golf.png in Resources */,
+				1E39D4771940898400A7FEA9 /* beer_list.plist in Resources */,
 				1EF9DAFA193E2976005ED7D1 /* fari1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +386,7 @@
 			files = (
 				1EE711B7193CD21A00B24ED7 /* Beer.m in Sources */,
 				1ED72402193E0B890025D1B9 /* EuroCalculatorViewController.m in Sources */,
+				1E39D47019407B5300A7FEA9 /* PersonList.m in Sources */,
 				1ED72405193E0CAF0025D1B9 /* EuroConverterViewController.m in Sources */,
 				1EE71197193CD00800B24ED7 /* AppDelegate.m in Sources */,
 				1ED723F7193DC3780025D1B9 /* Person.m in Sources */,
@@ -356,6 +405,7 @@
 			files = (
 				1E3A1B9A193F25BE003908F8 /* PersonTests.m in Sources */,
 				1E47D9DD193F34F6000E0773 /* BeerListTests.m in Sources */,
+				1E39D47219407C8000A7FEA9 /* PersonListTests.m in Sources */,
 				1E47D9E5193F81B8000E0773 /* HotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

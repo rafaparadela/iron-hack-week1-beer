@@ -16,6 +16,29 @@
 
 @implementation BeerList
 
+
+- (id)initWithFile: (NSString *)fileName{
+    if (self = [self init]) {
+        
+        NSString *fileNameAndPath = [[NSBundle mainBundle]pathForResource:fileName ofType:@"plist"];
+        NSArray *array = [NSArray arrayWithContentsOfFile:fileNameAndPath];
+        
+        
+        for (NSDictionary *dict in array) {
+            Beer *beer = [[Beer alloc] init];
+            beer.name = [dict objectForKey:@"name"];
+            beer.grade = [[dict objectForKey:@"grade"] integerValue];
+            beer.color = [dict objectForKey:@"color"];
+            beer.country = [dict objectForKey:@"country"];
+            
+            [self addBeer:beer];
+        }
+        
+        
+    }
+    return self;
+}
+
 - (id)init
 {
     self = [super init];
@@ -24,6 +47,8 @@
     }
     return self;
 }
+
+
 
 - (void) addBeer: (Beer *) beer{
     [self.theList addObject:beer];
